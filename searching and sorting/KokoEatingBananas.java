@@ -20,7 +20,7 @@ class Solution {
             
             
             int mid = minspeed + (maxspeed - minspeed )/2 ;
-            if(isPossibletoEat(piles , mid ) <= H ) maxspeed = mid ;
+            if(isPossibletoEat(piles , mid ) <= H ) maxspeed = mid ; // mid ko alag se check ni kra to cant loose it 
             else minspeed = mid + 1 ;
             
             

@@ -19,13 +19,14 @@ class Solution {
             
             int mid = (lo+hi)/2 ; 
             if(arr[mid] == data )return mid ; 
-            else if(arr[mid] >= arr[lo] ){
-                
+            else if(arr[mid] >= arr[lo] ){ // lo se leke mid tak sorted hai ki nahi ye check kr rhe hai
+                //agar sorted hai to normal BS ki conditions lgado 
                 if(arr[lo]<=data && data < arr[mid] ) hi = mid - 1;
                 else lo = mid + 1 ; 
                 
-            }else{
-                if(arr[mid]< data && data <= arr[hi] ) lo = mid + 1 ;
+            }else{ // agar si se mid sorted ni hai to mid se ei to pkka hoga no doubt
+                if(arr[mid]< data && data <= arr[hi] ) lo = mid + 1 ; // lo and hi ke sath equal ayga not mid ke sath bcoz
+                //mid ko check kr chuke alag se
                 else hi = mid -1 ;
                 
                 
