@@ -1,7 +1,7 @@
 //leetcode 76
 //Input: s = "ADOBECODEBANC", t = "ABC"
 //Output: "BANC"
-
+//Smallest window in a string containing all the characters of another string 
 class Solution {
     public String minWindow(String s, String t) {
         
