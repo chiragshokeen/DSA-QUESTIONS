@@ -1,0 +1,34 @@
+import java.util.HashSet;
+import java.util.Set;
+
+class Solution {
+    public void setZeroes(int[][] matrix) {
+        
+        Set<Integer> row = new HashSet<>() ;
+        Set<Integer> col = new HashSet<>() ;
+        
+        int n = matrix.length ;
+        int m = matrix[0].length ; 
+        
+        for( int i = 0 ; i < n ; i++ ){
+            
+            for( int j = 0 ; j < m ; j++ ){
+                if(matrix[i][j] == 0  ){
+                    row.add(i) ;
+                    col.add(j) ; 
+                }
+            }
+            
+        }
+        
+        for( int i = 0 ; i < n ; i++ ){
+            for( int j = 0 ; j < m ; j++ ){
+                if( row.contains(i) || col.contains(j) ){
+                    matrix[i][j] = 0 ; 
+                }
+            }
+        }
+        
+        return ; 
+    }
+}
