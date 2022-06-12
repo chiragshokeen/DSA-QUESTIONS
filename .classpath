@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Arrays/Normal Array based"/>
+	<classpathentry kind="src" path="Binary Trees"/>
+	<classpathentry kind="src" path="Leetcode Contest/Biweekly 71"/>
+	<classpathentry kind="src" path="Leetcode Contest/Biweekly 72"/>
+	<classpathentry kind="src" path="Leetcode Contest/Biweekly 74"/>
+	<classpathentry kind="src" path="Leetcode Contest/Biweekly 76"/>
+	<classpathentry kind="src" path="Leetcode Contest/Biweekly 77"/>
+	<classpathentry kind="src" path="Leetcode Contest/Biweekly 78"/>
+	<classpathentry kind="src" path="Leetcode Contest/Biweekly 79"/>
+	<classpathentry kind="src" path="LinkedList"/>
+	<classpathentry kind="src" path="searching and sorting"/>
+	<classpathentry kind="src" path="Striver 180/Day 1"/>
+	<classpathentry kind="src" path="Striver 180/Day 2"/>
+	<classpathentry kind="src" path="Striver 180/Day 3"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
