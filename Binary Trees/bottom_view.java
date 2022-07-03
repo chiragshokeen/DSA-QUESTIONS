@@ -15,7 +15,7 @@ class Solution
     
     public  List<List<Integer>> verticalOrderTraversal(Node root) {
     LinkedList<verticalPair> que = new LinkedList<>();
-    que.addLast(new verticalPair(root, 0));
+    que.addLast(new verticalPair(root , 02));
     HashMap<Integer, List<Integer>> map = new HashMap<>();
 
     int minHL = 0;
