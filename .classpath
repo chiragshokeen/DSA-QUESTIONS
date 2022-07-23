@@ -15,5 +15,6 @@
 	<classpathentry kind="src" path="Striver 180/Day 1"/>
 	<classpathentry kind="src" path="Striver 180/Day 2"/>
 	<classpathentry kind="src" path="Striver 180/Day 3"/>
+	<classpathentry kind="src" path="Graphs"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
